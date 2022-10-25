@@ -19,22 +19,10 @@ echo @color('yellow', "Masa Aktif\t\t: ");
 echo @color('nevy', "$aktif\n"); 
 echo @color('yellow', "Sisa Kuota\t\t: "); echo @color('nevy', "$sisakuota\n"); echo @color('yellow', "Poin Bonstri\t\t: "); 
 echo @color('nevy', "$poin Poin\n\n"); cek: echo @color('green', "Pilih Paket:\n"); 
-echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1\n2. 
-(NEW) 10GB 30 Hari ==> Rp 15000\n3. (NEW) 15GB 30 Hari ==> Rp 20000\n4. 25GB 25rb (Diskon) ==> Rp 25000\n5. 25GB 24 Jam 20 Hari ==> Rp 25000\n6. 
+echo @color('yellow', "1. Welcome 5GB ==> Rp 5000\n2. 
+(NEW) 4GB 12 bulan ==> Rp 16.000\n3. (NEW) 6,5GB 12 bulan ==> Rp 20.000\n4. 10GB 12 bulan ==> Rp 30.000 (Diskon)\n5. 15 GB 24 jam 12 bulan ==> Rp 45000\n6. 
 
-(NEW) 25GB 20 Hari ==> Rp 25000\n7. (NEW) 25GB 20 Hari ==> Rp 25000\n8. 25GB 24 Jam 30 Hari ==> Rp 29000\n9. 
-
-(NEW) 25GB 30 Hari ==> Rp 29000\n10. 
-
-(NEW) 55GB 30 Hari ==> Rp 50000\n11. 
-
-(NEW) 65GB 30 Hari ==> Rp 60000\n12. 
-
-(NEW) 75GB 30 Hari ==> Rp 75000\n13.
-
-(NEW) 90GB 30 Hari ==> Rp 90000\n14. 
-
-(NEW) 100GB 30 Hari ==> Rp 90000\n"); 
+(NEW) 20GB 12 bulan ==> Rp 80.000\n7. (NEW) 32 GB FULL 30 Hari ==> Rp 85.000\n8."); 
 echo @color('green', "\nMasukkan Pilihan (Sesuai Angka) : "); 
 $pilih = trim(fgets(STDIN)); 
 switch ($pilih) { 
